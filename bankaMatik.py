@@ -26,7 +26,7 @@ def giris():
          print("Yatırılacak para limitini aştınız , tekrar deneyin.")
         if yatirilcakpara > 0 and yatirilcakpara<=50000:  
             print("Para:", yatirilcakpara)
-            onay = input("Onaylıyorsanız 'evet', onaylamıyorsanız 'hayır' yazın: ").lower()
+            onay = input("Onaylıyorsanız 'evet', onaylamıyorsanız 'hayir' yazın: ").lower()
 
             if onay == durum:
                 bakiye += yatirilcakpara
